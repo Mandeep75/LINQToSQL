@@ -82,5 +82,10 @@ namespace LinqToSQL
             }
             GetData();
         }
+
+        protected void btnEdit_Click(object sender, EventArgs e)
+        {
+            Response.Write("hello");
+        }
     }
 }
